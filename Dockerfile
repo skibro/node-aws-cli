@@ -9,5 +9,6 @@ RUN curl -O https://bootstrap.pypa.io/get-pip.py
 
 RUN python get-pip.py
 RUN pip install awscli
+RUN npm install -g serverless
 
 CMD ["node"]
